@@ -20,7 +20,7 @@ app.use(express.json());
 const allowedOrigins = [
   "http://localhost:5173", // Vite local frontend
   "http://localhost:3000", // If using CRA
-  "https://your-frontend-name.vercel.app", // Deployed frontend URL
+  "https://bellcorp-expense-tracker-delta.vercel.app/", // Deployed frontend URL
 ];
 
 app.use(
